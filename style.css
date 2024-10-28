@@ -6,7 +6,7 @@
 
 header {
     background-color: pink;
-    margin: 2rem 3rem 0 3rem;
+    margin: 2rem 3rem 5rem 3rem;
     position: relative;
 
     > div {
@@ -54,6 +54,36 @@ header {
                     height: 20px;
                     background-color: greenyellow;
                 }
+            }
+        }
+    }
+}
+
+main {
+    > h2 {
+        font-size: 3em;
+    }
+    > .works {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem auto 3rem auto;
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 400px;
+            height: 300px;
+            background-color: yellow;
+
+            > div {
+                width: 100%;
+                height: 20%;
+                background-color: aquamarine;
             }
         }
     }
